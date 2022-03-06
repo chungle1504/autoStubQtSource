@@ -3,8 +3,8 @@
 using namespace std;
 
 int ex1(int a){
-    int b[2] = {a, a + 1};
-    int tmp = exReturn0();
+    int tmp = return2();
+    tmp = exReturn0();
     if(tmp == -1){
         return a;
     } else {
@@ -36,4 +36,8 @@ int ex3(int a){
     } else {
         return 0;
     }
+}
+
+int return2(){
+	return 2;
 }

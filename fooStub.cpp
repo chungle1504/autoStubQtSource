@@ -14,7 +14,6 @@ int return1(){
 }
 
 int foo1(int a){
-    int b[2] = {a, a + 1};
     int tmp = return0();
     if(tmp == -1){
         return a;
