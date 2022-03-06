@@ -2,6 +2,10 @@
 #include "stubFunc.h"
 using namespace std;
 
+int return2(){
+	return 2;
+}
+
 int ex1(int a){
     int tmp = return2();
     tmp = exReturn0();
@@ -36,8 +40,4 @@ int ex3(int a){
     } else {
         return 0;
     }
-}
-
-int return2(){
-	return 2;
 }
