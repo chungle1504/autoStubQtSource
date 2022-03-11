@@ -30,8 +30,8 @@ class B {
     public:
         B(int a, int b, A aa) // Constructor
         {
-            this -> a = a; // this.<var> points to the variable of
-            this -> b = b; // class A while <var> is a formal parameter
+            this -> a = a; 
+            this -> b = b; 
             this -> objA = aa;
         }
         int ret5() {
@@ -91,8 +91,4 @@ int multipleReference(int a, int b) {
         cout << -2 << endl;
     }
     return 0;
-    //   obj.fun1(); // Allowed
-    //   obj.fun2(); // Allowed
-    //   A::fun1(); // Error!
-    //   A::fun2(); // Allowed
 }
