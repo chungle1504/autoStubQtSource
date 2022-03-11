@@ -3,7 +3,7 @@
 using namespace std;
 
 int ex1(int a){
-    int tmp = return2();
+    int tmp = 10;
     tmp = exReturn0();
     if(tmp == -1){
         return a;
