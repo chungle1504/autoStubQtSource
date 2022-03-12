@@ -15,11 +15,11 @@ class A {
             this -> a = a; // this.<var> points to the variable of
             this -> b = b; // class A while <var> is a formal parameter
         }
-        int ret5() {
-            return 5;
+        int ret3() {
+            return 3;
         }
-        int ret6() {
-            return 6;
+        int ret4() {
+            return 4;
         }
 };
 
