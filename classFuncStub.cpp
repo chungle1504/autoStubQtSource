@@ -85,7 +85,7 @@ int multipleReference(int a, int b) {
         cout << -2 << endl;
     }
 
-    if (obj.retA().ret5() == 6) {
+    if (obj.retA().ret3() == 6) {
         cout << 2 << endl;
     } else {
         cout << -2 << endl;
